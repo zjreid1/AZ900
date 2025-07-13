@@ -41,3 +41,25 @@ Correct
 Predictability
 
 Scalability
+
+
+### Describe Cloud Service Types
+
+Check your knowledge
+
+1. Which cloud service type is most suited to a lift and shift migration from an on-premises datacenter to a cloud deployment?
+
+Infrastructure as a Service (IaaS)
+Correct
+
+Platform as a Service (PaaS)
+
+Software as a Service (SaaS)
+2. What type of cloud service type would a Finance and Expense tracking solution typically be in?
+
+Infrastructure as a Service (IaaS)
+
+Platform as a Service (PaaS)
+
+Software as a Service (SaaS)
+Correct
