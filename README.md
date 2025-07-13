@@ -98,6 +98,41 @@ Platform as a Service (PaaS)
 
 ---
 
+Upon completion of this module, you will be able to:
+
+Describe the benefits of high availability and scalability in the cloud.
+
+Describe the benefits of reliability and predictability in the cloud.
+
+Describe the benefits of security and governance in the cloud.
+
+Describe the benefits of manageability in the cloud.
+
 ### Describe Benefits of Cloud Services
 
-- 
+- Azure SLAs are %ages in uptime, more uptime = more $$$
+- 99% uptime can be down 1.6 hours per week, but 99.9% can be down 10 mins per week max
+- Highly available = uptime
+
+- Scalability = ability to adjust resources to meet demand (elasticity to scale up/scale down as needed to avoid overpaying)
+- Vertical scaling = Increase CPU/RAM available on a VM
+- Horizontal scaling = add additional VMs/containers (throw more servers at the problem instead of beefing up one server)
+
+### Benefits of relability/predictability in the cloud
+
+- Relability is the ability to recover from failures and continue to function and is part of the Azure Well-Architected Franework.  Being decentralized the system can shift/recover as needed even to other geographic zones
+- Predictability allows focus on performance and cost predictability (MS WAF)
+- Performance: Focuses on providing known resources needed to deliver the end product depending on needs from scaling to HA, to load balancing, etc...
+- Cost predictibility focuses on forecasting cost of cloud spend and being able to track resource utilization and cost in real time, and use tools like Total Cost Ownership or the Pricing Claculator to get an estimate of cloud spend
+
+
+### Describe benefits of security/governance in the cloud
+
+- Governance/compliance templates can help meet corp standars/regulatory requirements
+- Cloud based audititing can flag resources out of compliance and mitigate impacts
+- Security can include easy patches and maintenance automation or various service/software deployments
+
+### Cloud Managability
+
+- Cloud management allows for scaling, deploying resources based on templates, monitoring/telmetry, and automatic alerts
+- Cloud management can take the form of web portal, CLI, API, or Powershell
