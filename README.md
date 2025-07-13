@@ -132,7 +132,59 @@ Describe the benefits of manageability in the cloud.
 - Cloud based audititing can flag resources out of compliance and mitigate impacts
 - Security can include easy patches and maintenance automation or various service/software deployments
 
+
+----
+
+### Cloud Service Types
+
+Learning objectives
+Upon completion of this module, you'll be able to:
+
+Describe Infrastructure as a Service (IaaS).
+
+Describe Platform as a Service (PaaS).
+
+Describe Software as a Service (SaaS).
+
+Identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS).
+
+
+### Describe Infra As a Service
 ### Cloud Managability
 
 - Cloud management allows for scaling, deploying resources based on templates, monitoring/telmetry, and automatic alerts
 - Cloud management can take the form of web portal, CLI, API, or Powershell
+
+
+
+### IaaS
+- Infrastructure as a service: Essentially renting the HW in a cloud datacenter, but what customer does w/ it is up to them
+  - Cloud provider responsible for: HW, network connectivity, and physical security
+  - Cust responsible for: OS, Config, Maintenance, network config, DB/storage config, etc...
+  
+<img width="908" height="697" alt="image" src="https://github.com/user-attachments/assets/7eb846f3-7fd7-4422-9737-e763964d2db9" />
+
+Some common scenarios where IaaS might make sense include:
+
+Lift-and-shift migration: You’re setting up cloud resources similar to your on-prem datacenter, and then simply moving the things running on-prem to running on the IaaS infrastructure.
+Testing and development: You have established configurations for development and test environments that you need to rapidly replicate. You can start up or shut down the different environments rapidly with an IaaS structure, while maintaining complete control.
+
+### PaaS
+
+- Platform as a service: Middle ground before renting data center space and paying for a complete/deployed solution.  Cloud provider maintains phsysical infra, security, and internet connectivity, but ALSO maintains OS, middleware, dev tools, and BI services.  Basically don't have to worry about liscensing/patching for OS's and DBs and can maintain a dev enviro w/o having to maintain dev infra
+
+Some common scenarios where PaaS might make sense include:
+
+Development framework: PaaS provides a framework that developers can build upon to develop or customize cloud-based applications. Similar to the way you create an Excel macro, PaaS lets developers create applications using built-in software components. Cloud features such as scalability, high-availability, and multi-tenant capability are included, reducing the amount of coding that developers must do.
+Analytics or business intelligence: Tools provided as a service with PaaS allow organizations to analyze and mine their data, finding insights and patterns and predicting outcomes to improve forecasting, product design decisions, investment returns, and other business decisions.
+
+### SaaS
+
+- Software as a Service: Renting/using a fully developed app, think gmail, Tableau cloud, Relativity, etc...  Least flexible, but also easiest to get up/running and least technical knowledge to fully implement
+
+
+Some common scenarios for SaaS are:
+
+Email and messaging.
+Business productivity applications.
+Finance and expense tracking.
