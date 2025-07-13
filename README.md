@@ -94,3 +94,10 @@ Correct
 Software as a Service (SaaS)
 
 Platform as a Service (PaaS)
+
+
+---
+
+### Describe Benefits of Cloud Services
+
+- 
